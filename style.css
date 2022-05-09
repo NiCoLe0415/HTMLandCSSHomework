@@ -1,0 +1,140 @@
+html {
+    font-family: 'Cardo', serif;
+    color: #1e1e1e;
+}
+
+
+img {
+    width: 100%;
+    height: 720px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.navContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navItem {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    margin: 0 0 0 100px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.addContainer {
+    display: flex;
+    justify-content: flex-end;
+    width:1280px;
+    margin: 130px 0 90px 0;
+}
+
+.button {
+    background: none;
+    border: 1px solid #9b9b9b;
+    border-radius: 50px;
+    font-size: 14px;
+    height: 60px;
+    line-height: 1.3;
+    width: 300px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.title {
+    line-height: 1.2;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 46px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.infoContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.infoItem {
+    color: #9b9b9b;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 0;
+}
+
+.infoItem:not(:last-child):after {
+    content: '\2022';
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.infoMark {
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.actionsContainer {
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actionsBtn {
+    padding: 0;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.actionsBtn:not(:last-child):after {
+    content: '\007c';
+    padding: 5px;
+}
+
+.contentContainer {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0 100px 0;
+}
+
+.footerLink {
+    color: #1e1e1e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    line-height: 1.2;
+    text-decoration: none;
+}
